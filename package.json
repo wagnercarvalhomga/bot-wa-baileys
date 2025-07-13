@@ -5,9 +5,10 @@
   "main": "lib/baileys.js",
   "types": "lib/baileys.d.ts",
   "scripts": {
+    "start": "node index.js",
     "build": "tsc",
     "example": "tsc && node -r ts-node/register examples/bot.ts"
-  },
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/andresayac/bot-wa-baileys.git"
